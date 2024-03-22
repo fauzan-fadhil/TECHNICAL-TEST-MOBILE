@@ -1,0 +1,16 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.TECHNICALTESTMOBILE" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowIsTranslucent">true</item>
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="android:forceDarkAllowed" tools:targetApi="q">false</item>
+    </style>
+
+    <style name="buttonstyle" parent="Theme.AppCompat.Light">
+        <item name="colorControlHighlight">#3E50AD</item>
+        <item name="colorButtonNormal">#3E50AD</item>
+    </style>
+
+    <style name="Theme.TECHNICALTESTMOBILE" parent="Base.Theme.TECHNICALTESTMOBILE" />
+</resources>
